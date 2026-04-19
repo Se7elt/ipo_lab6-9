@@ -1,5 +1,5 @@
 import pytest 
-from my_library.math_utils import calculate_mean, factorial 
+from my_library.my_library.math_utils import calculate_mean, factorial 
  
 def test_calculate_mean(): 
     assert calculate_mean([1, 2, 3]) == 2 
